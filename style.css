@@ -1,0 +1,121 @@
+body{
+  background: #cfcfcf;
+  font-family: 'Cambo', serif;
+  overflow-y: scroll;
+}
+
+#fourHead{
+  margin: 1% 0;
+  color: #6441a5;
+  font-size: 2em;
+  text-align: center;
+  font-size: 2em;
+}
+#title{
+  font-size: 2em;
+  font-family: 'Bangers', cursive;
+}
+#onlineBox {
+
+}
+#offlineBox{
+}
+
+.hide{
+  display: none;
+}
+
+#onlineBtn{
+  border: 1px solid #6441a5;
+}
+#allBtn{
+  border: 1px solid #6441a5;
+}
+
+.activeButton{
+  background: #6441a5;
+  color: white;
+}
+
+img{
+  margin:1%;
+  max-height: 150px;
+  max-width: 150px;
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+a, a:hover{
+  text-decoration: none;
+}
+.onlineElement {
+  border: 2px solid #6441a5;
+  color: white;
+  background: #5936a0;
+}
+.onlineElement:hover{
+  background: #6949a9;
+}
+
+.offlineElement {
+  color: black;
+  border: 2px solid gray;
+  background: #dddddd;
+}
+.offlineElement:hover{
+  background:#f2f2f2;
+}
+.failure{
+  padding: 3% 0;
+  background: #cc3333;
+  border: 2px solid #bb3030;
+}
+
+.element{
+  margin: 0 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  text-align: center;
+  width: 20%;
+  margin-left: 7%;
+}
+.game{
+  text-align: center;
+  width: 20%;
+  margin-left: 7%;
+}
+@media screen and (min-width:900px){
+  .element{
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width:600px){
+  #title{
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width:480px){
+  .container{
+    padding: 0;
+    margin: 0;
+  }
+  #title{
+    font-size: 1.5em;
+  }
+  .onlineElement{
+    font-size: .8em;
+  }
+  .offlineElement{
+    font-size: .8em;
+  }
+}
+@media screen and (max-width:380px){
+  #title{
+    font-size: 1.2em;
+  }
+}
